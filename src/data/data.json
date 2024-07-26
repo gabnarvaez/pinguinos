@@ -1,0 +1,58 @@
+[
+    {
+      "id": 1,
+      "titulo": "Ice Cream - Vanilla",
+      "descripcion": "Delicious vanilla ice cream.",
+      "categoria": "Frozen",
+      "imagen": "http://dummyimage.com/200x100.png/cc0000/ffffff",
+      "precio": 1.11,
+      "stock": 20
+    },
+    {
+      "id": 2,
+      "titulo": "Ice Cream - Chocolate",
+      "descripcion": "Rich chocolate ice cream.",
+      "categoria": "Frozen",
+      "imagen": "http://dummyimage.com/200x100.png/cc0000/ffffff",
+      "precio": 1.25,
+      "stock": 15
+    },
+    
+    {
+      "id": 3,
+      "titulo": "Cookie - Chocolate Chip",
+      "descripcion": "Crunchy chocolate chip cookies.",
+      "categoria": "Cookies",
+      "imagen": "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+      "precio": 1.05,
+      "stock": 30
+    },
+    {
+      "id": 4,
+      "titulo": "Cookie - Oatmeal Raisin",
+      "descripcion": "Chewy oatmeal raisin cookies.",
+      "categoria": "Cookies",
+      "imagen": "http://dummyimage.com/200x100.png/dddddd/000000",
+      "precio": 1.06,
+      "stock": 25
+    },
+    {
+      "id": 5,
+      "titulo": "Donut - Glazed",
+      "descripcion": "Sweet glazed donuts.",
+      "categoria": "Donuts",
+      "imagen": "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+      "precio": 1.45,
+      "stock": 50
+    },
+    {
+      "id": 6,
+      "titulo": "Donut - Chocolate Frosted",
+      "descripcion": "Chocolate frosted donuts.",
+      "categoria": "Donuts",
+      "imagen": "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+      "precio": 1.55,
+      "stock": 45
+    }
+  ]
+  
