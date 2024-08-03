@@ -185,10 +185,16 @@
     transition: .2s;
 }
 
-.item-count button:hover, .agregar-al-carrito:hover, :hover {
-    background-color: white;
+.item-count button:hover {
+    background-color: initial; /* No cambiar el fondo */
     color: black;
 }
+
+.agregar-al-carrito:hover {
+    background-color: initial; /* No cambiar el fondo */
+    color: black;
+}
+
 
 .agregar-al-carrito {
     width: auto;
