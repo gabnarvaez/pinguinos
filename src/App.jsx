@@ -3,9 +3,11 @@ import Navbar from './components/Navbar/Navbar';
 import ItemListContainer from './components/ItemListContainer/ItemListContainer';
 import ItemDetailContainer from './components/ItemDetailContainer/ItemDetailContainer';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import Ubicacion from './components/Ubicacion/Ubicacion';
+import Contacto from "./components/contacto/contacto";
 import { CartProvider } from './context/CartContext';
 import Carrito from './components/Carrito/Carrito';
+import Checkout from "./components/Checkout/checkout";
+import Footer from "./components/footer/footer";
 
 
 function App() {
@@ -24,12 +26,14 @@ function App() {
       <Route path='/item/:id' element={<ItemDetailContainer/>} />
       <Route path="/productos" element={<ItemListContainer />} />
       <Route path="/productos/:categoria" element={<ItemListContainer />} />
-      <Route path="/ubicacion" element={<Ubicacion />}/>
+      <Route path="/contacto" element={<Contacto />}/>
       <Route path="/carrito" element={<Carrito />}/>
+      <Route path="/checkout" element={<Checkout />}/>
      </Routes>
-
+     <Footer/>
      </BrowserRouter>
      </CartProvider>
+     
     </div>
     
   );

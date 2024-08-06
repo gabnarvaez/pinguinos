@@ -5,6 +5,20 @@
     font-family: sans-serif;
 }
 
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+  
+  .App {
+    display: grid;
+    min-height: 100vh; /* Asegura que el contenedor principal ocupe al menos toda la altura de la ventana */
+  }
+  
+  main {
+    min-height: 100vh;
+  }
+
 :root {
     --clr-main: #071215;
     --clr-main-light: #4990a4;
@@ -202,3 +216,70 @@
     margin-top: 1rem;
     padding: 2rem;
 }
+
+.vaciar, .checkout, .enviar {
+    background-color: #6a0dad; /* Púrpura inspirado en Purple Rain */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none; /* Eliminar subrayado del enlace */
+    display: inline-block; /* Permitir que el <Link> se comporte como un botón */
+    transition: background-color 0.3s ease;
+    margin-right: 10px; /* Espacio entre botones */
+}
+
+.vaciar:hover, .checkout:hover, .enviar:hover {
+    background-color: #5a0c9e; /* Púrpura más oscuro */
+}
+
+.vaciar:active, .checkout:active, .enviar:active {
+    background-color: #4b0a87; /* Púrpura aún más oscuro */
+}
+
+.vaciar:focus, .checkout:focus, .enviar:focus {
+    outline: none;
+    box-shadow: 0 0 5px #6a0dad;
+}
+
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    align-items: flex-start;
+}
+
+.formulario input {
+    padding: .5rem;
+    width: 18rem;
+    border-radius: .5rem;
+    border: 2px solid black;
+}
+
+.formulario input:focus {
+    outline: 0;
+    border: 2px solid var(--clr-main);
+    outline: 2px solid var(--clr-main);
+}
+
+  
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000; /* Fondo negro */
+    color: #fff; /* Letras blancas */
+    padding: 20px;
+    font-size: 16px;
+    text-align: center; 
+  }
+  
+  .footer-column {
+    flex: 1;
+    text-align: center; /* Centra el texto en cada columna del footer */
+  }
+  
